@@ -1043,6 +1043,9 @@ body.nav-active { overflow: hidden; }
   #MENU
 \*-----------------------------------*/
 
+.menu{
+  margin-top: 90px;
+}
 .menu .section-title { margin-block-end: 40px; }
 
 .menu .grid-list { margin-block-end: 50px; }
@@ -1917,17 +1920,7 @@ textarea.input-field {
 
 
 
-  /**
-   * REUSED STYLE
-   */
-
-  .container,
-  :is(.service, .event) .container {
-    max-width: 1200px;
-    width: 100%;
-    margin-inline: auto;
-  }
-
+  
 
 
   /**
@@ -1984,58 +1977,6 @@ textarea.input-field {
 
   .header .btn { margin-inline-start: 0; }
 
-
-
-  /**
-   * HERO
-   */
-
-  .hero { height: 880px; }
-
-  .hero-btn {
-    bottom: 50px;
-    right: 50px;
-    transform: scale(1);
-  }
-
-
-
-  /**
-   * SERVICE
-   */
-
-  .service .grid-list { gap: 150px; }
-
-  .service .grid-list li:nth-child(2n+1) { transform: translateY(-160px); }
-
-  .service .section-text { margin-block-end: 75px; }
-
-
-
-  /**
-   * ABOUT
-   */
-
-  .about { padding-block: 170px 100px; }
-
-
-
-  /**
-   * SPECIAL DISH
-   */
-
-  .special-dish-content {
-    padding: 225px 120px;
-    padding-inline-end: 0;
-  }
-
-  .special-dish-content .container {
-    max-width: 460px;
-    margin-inline: 0;
-  }
-
-
-
   /**
    * MENU
    */
@@ -2044,25 +1985,6 @@ textarea.input-field {
     gap: 55px 200px;
     margin-block-end: 55px;
   }
-
-
-
-  /**
-   * TESTIMONIALS
-   */
-
-  .form-left,
-  .form-right { padding: 75px 60px; }
-
-
-
-
-  /**
-   * FEATURES
-   */
-
-  .features .grid-list { grid-template-columns: repeat(4, 1fr); }
-
 }
 
 
@@ -2080,64 +2002,3 @@ textarea.input-field {
    */
 
   .navbar { margin-inline: auto; }
-
-
-
-  /**
-   * ABOUT
-   */
-
-  .about-content { padding-inline-end: 90px; }
-
-  .about .shape {
-    display: block;
-    top: 46%;
-    left: 0;
-  }
-
-
-
-  /**
-   * SPECIAL DISH
-   */
-
-  .special-dish {
-    overflow: visible;
-    position: relative;
-  }
-
-  .special-dish .shape {
-    display: block;
-    right: 0;
-    z-index: 1;
-  }
-
-  .special-dish .shape-1 { top: 45%; }
-
-  .special-dish .shape-2 {
-    bottom: 0;
-    transform: translateY(50%);
-    width: max-content;
-  }
-
-
-
-  /**
-   * FEATURES
-   */
-
-  .features { overflow: visible; }
-
-  .features .shape { display: block; }
-
-  .features .shape-1 {
-    top: -100px;
-    right: 0;
-  }
-
-  .features .shape-2 {
-    bottom: 80px;
-    left: 0;
-  }
-
-}
